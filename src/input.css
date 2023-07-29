@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#popup {
+    display: none;
+}
+
+#content {
+    flex-direction: column;
+    display: flex;
+}
+
+.active {
+    display: none;
+}
+
+.tap {
+    background:hsla(216, 12%, 54%, 0.1);
+    color: hsl(217, 12%, 63%)
+
+}
